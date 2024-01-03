@@ -1,12 +1,11 @@
 import React from 'react';
 import html from "../Assests/html.png";
-import css from "../Assests/css.jpg";
 import javascript from "../Assests/javascript.png";
 import tailwindcss from "../Assests/tailwindcss.jpg";
 import cpp from "../Assests/cpp.png";
 import SQL from "../Assests/SQL.png";
 import react from "../Assests/react.png";
-import Github from "../Assests/Github.png";
+
 
 
 
@@ -21,42 +20,30 @@ const Skills = () => {
         },
         {
             id:2,
-            src:css,
-            title:'CSS',
-            style:'shadow-blue-500'
-        },
-        {
-            id:3,
             src:javascript,
             title:'JAVASCRIPT',
             style:'shadow-yellow-500'
         },
         {
-            id:4,
+            id:3,
             src:react,
             title:'REACT',
             style:'shadow-blue-500'
         },
         {
-            id:5,
+            id:4,
             src:tailwindcss,
             title:'Tailwind',
             style:'shadow-sky-400'
         },
         {
-            id:6,
+            id:5,
             src:cpp,
             title:'CPP',
             style:'shadow-blue-500'
         },
         {
-            id:7,
-            src:Github,
-            title:'GitHub',
-            style:'shadow-gray-400'
-        },
-        {
-            id:8,
+            id:6,
             src:SQL,
             title:'SQL',
             style:'shadow-blue-300'
@@ -65,7 +52,8 @@ const Skills = () => {
     ]
 
   return (
-    <div name="Skills" className="bg-gradient-to-b from-gray-800 to-black w-full h-screen ">
+    
+    <div name="Skills" className="bg-gradient-to-b from-gray-800 to-black w-full h-screen pt-16">
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>
             <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline"> Skills </p>

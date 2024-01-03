@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaGithub,FaLinkedin } from 'react-icons/fa';
 import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+import { FaFilePdf } from 'react-icons/fa';
 
 const SocialLinks = () => {
   
@@ -11,37 +11,38 @@ const SocialLinks = () => {
             id:1,
             child: (
                 <>
-                LinkedIn <FaLinkedin size={30}/>
+                LinkedIn <FaLinkedin size={30} color="#003366"/>
                 </>
             ),
-            href : 'https://linkedin.com',
+            href : 'https://www.linkedin.com/in/akanksha-pathak-a31b09220?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
             style: 'rounded-tr-md'
         },
         {
             id:2,
             child: (
                 <>
-                GitHub <FaGithub size={30}/>
+                Mail < HiOutlineMail size={30} color="#B22222"/>
                 </>
             ),
-            href : 'https://github.com/akanksha2303',
-            
+            href : 'mailto:akankshapathak9695@gmail.com',
+        
         },
         {
             id:3,
             child: (
                 <>
-                Mail < HiOutlineMail size={30}/>
+                GitHub <FaGithub size={30} color="black"/>
                 </>
             ),
-            href : 'mailto:foo@gmail.com',
-        
+            href : 'https://github.com/akanksha2303',
+            
         },
+        
         {
             id:4,
             child: (
                 <>
-                Resume <BsFillPersonLinesFill size={30}/>
+                Resume <FaFilePdf size={30} color="maroon"/>
                 </>
             ),
             href : "/Resume.pdf",

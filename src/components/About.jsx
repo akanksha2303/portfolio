@@ -8,21 +8,22 @@ const About = () => {
             <p className="text-4xl font-bold inline border-b-4 border-gray-500">About</p>
         </div>
         <div>
-            <p className="text-xl mt-20">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                Nemo temporibus quam est placeat. Possimus reiciendis, similique necessitatibus officiis
-                 perferendis omnis aperiam doloremque enim nihil esse saepe culpa inventore quibusdam vero dicta
-                  ducimus error consectetur quasi deleniti incidunt rem. Vero aperiam officiis eius consectetur
-                   mollitia culpa optio aut amet, velit repudiandae.
+            <p className="text-xl mt-17 font-signature1">
+            I am Akanksha, a student pursuing a Bachelor of Technology (B.Tech) degree in Computer Science 
+            and Engineering at Netaji Subhash Engineering College. My academic focus includes a comprehensive 
+            understanding of computer science principles and practice. I have acquired proficiency in various programming 
+            languages, such as C++, JavaScript, and HTML, and have extended my expertise to include web 
+            development using React. My academic journey reflects a commitment to mastering a diverse
+            set of technologies and applying them in practical scenarios.
 
             </p>
             <br/>
-        <p className="text-xl">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo, vero reiciendis ea deleniti
-             nemo officiis asperiores vitae necessitatibus impedit eveniet earum dicta consequuntur! Deleniti 
-             et ipsum natus enim accusamus, voluptatibus odit maiores architecto eum eos vitae? Harum nemo 
-             voluptatibus odit sequi sed. Laborum animi eaque necessitatibus exercitationem iusto maiores 
-             consequatur?
+        <p className="text-xl font-signature1">
+        I have acquired practical experience in front-end development through the implementation of projects 
+        utilizing React and Tailwind CSS. Noteworthy among these projects are the development of a Netflix clone
+         and a food ordering application. My focus and interest lie predominantly in the realm of front-end 
+         development, where I have had the opportunity to apply my skills and contribute to the creation of
+          user-friendly interfaces.
         </p>
        </div>
      </div>
